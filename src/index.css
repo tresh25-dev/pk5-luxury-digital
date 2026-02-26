@@ -133,4 +133,11 @@
   .gold-glow {
     box-shadow: 0 0 20px hsl(41 57% 51% / 0.3);
   }
+
+  /* Hide Lovable floating icon globally */
+.lovable-icon,
+.lovable-badge,
+.lovable-widget {
+  display: none !important;
+}
 }
