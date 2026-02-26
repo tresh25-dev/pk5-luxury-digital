@@ -9,12 +9,12 @@ import property2 from "@/assets/property-2.jpg";
 import property3 from "@/assets/property-3.jpg";
 
 const allProperties = [
-  { id: 1, image: property1, title: "Skyline Penthouse", location: "Manhattan, New York", price: "$4,500,000", priceNum: 4500000, beds: 4, baths: 3, sqft: "3,200", status: "For Sale", type: "Residential" },
-  { id: 2, image: property2, title: "Beachfront Villa", location: "Turks & Caicos", price: "$6,800,000", priceNum: 6800000, beds: 5, baths: 4, sqft: "4,800", status: "For Sale", type: "Residential" },
-  { id: 3, image: property3, title: "Corporate Tower Suite", location: "Downtown Business District", price: "$2,200,000", priceNum: 2200000, beds: 0, baths: 2, sqft: "5,500", status: "For Lease", type: "Commercial" },
-  { id: 4, image: property1, title: "Luxury Condo", location: "Miami Beach, FL", price: "$1,950,000", priceNum: 1950000, beds: 3, baths: 2, sqft: "2,100", status: "For Sale", type: "Residential" },
-  { id: 5, image: property2, title: "Island Estate", location: "Caribbean Islands", price: "$12,500,000", priceNum: 12500000, beds: 7, baths: 6, sqft: "8,200", status: "For Sale", type: "Residential" },
-  { id: 6, image: property3, title: "Office Complex", location: "Silicon Valley, CA", price: "$8,900,000", priceNum: 8900000, beds: 0, baths: 4, sqft: "12,000", status: "For Lease", type: "Commercial" },
+  { id: 1, image: property1, title: "Eko Skyline Penthouse", location: "Banana Island, Lagos", price: "₦400,000,00", priceNum: 40000000, beds: 4, baths: 3, sqft: "3,200", status: "For Sale", type: "Residential" },
+  { id: 2, image: property2, title: "Capital Crest Penthouse", location: "Maitama, Abuja", price: "₦200,000,00", priceNum: 6800000, beds: 5, baths: 4, sqft: "4,800", status: "For Sale", type: "Residential" },
+  { id: 3, image: property3, title: "Atlantic View Luxury Apartment", location: "Victoria Island, Lagos", price: "₦450,000,00", priceNum: 2200000, beds: 0, baths: 2, sqft: "5,500", status: "For Lease", type: "Commercial" },
+  { id: 4, image: property1, title: "Garden City Royal Penthouse", location: "GRA Phase 2, Port Harcourt", price: "₦150,000,00", priceNum: 1950000, beds: 3, baths: 2, sqft: "2,100", status: "For Sale", type: "Residential" },
+  { id: 5, image: property2, title: "Banana Island Waterfront Estate", location: "Lagos, Nigeria", price: "₦18,500,000", priceNum: 12500000, beds: 7, baths: 6, sqft: "8,200", status: "For Sale", type: "Residential" },
+  { id: 6, image: property3, title: "Tech Innovation Hub", location: "Yaba, Lagos", price: "₦120,000,00", priceNum: 8900000, beds: 0, baths: 4, sqft: "12,000", status: "For Lease", type: "Commercial" },
 ];
 
 const Properties = () => {

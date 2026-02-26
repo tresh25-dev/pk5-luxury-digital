@@ -46,22 +46,36 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4 text-accent">Contact</h4>
             <div className="flex flex-col gap-3">
-              <a href="tel:+1234567890" className="flex items-center gap-2 text-sm text-primary-foreground/70 hover:text-accent transition-colors">
+              <a
+                href="tel:+1234567890"
+                className="flex items-center gap-2 text-sm text-primary-foreground/70 hover:text-accent transition-colors"
+              >
                 <Phone className="w-4 h-4 text-accent" />
                 +2348026133205
               </a>
-              <a href="mailto:info@pk5realestate.com" className="flex items-center gap-2 text-sm text-primary-foreground/70 hover:text-accent transition-colors">
+              <a
+                href="mailto:info@pk5realestate.com"
+                className="flex items-center gap-2 text-sm text-primary-foreground/70 hover:text-accent transition-colors"
+              >
                 <Mail className="w-4 h-4 text-accent" />
                 info@pk5realestate.com
               </a>
-              <div className="flex items-start gap-2 text-sm text-primary-foreground/70">
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=5901+Peachtree+Dunwoody+Road+Suite+A310+Atlanta+GA+30328"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start gap-2 text-sm text-primary-foreground/70 hover:text-accent transition-colors"
+              >
                 <MapPin className="w-4 h-4 text-accent mt-0.5" />
-                <span>  Head Office: 5901 Peachtree <br/> Dunwoody Road, Suite A310,<br/>  Atlanta,  GA 30328, USA </span>
-
-   
-              </div>
+                <span>
+                  Head Office: 5901 Peachtree <br />
+                  Dunwoody Road, Suite A310,<br />
+                  Atlanta, GA 30328, USA
+                </span>
+              </a>
             </div>
           </div>
+
         </div>
 
         <div className="border-t border-primary-foreground/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
